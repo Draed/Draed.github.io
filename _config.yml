@@ -1,12 +1,12 @@
 # Site
-repository: https://github.com/AakashMallik/resume
+repository: https://github.com/Draed/Draed.github.io
 favicon: images/favicon.ico
 
 # Personal info
-name: Aakash S. Mallik
-title: Software Engineer
-email: humble.discipulus@gmail.com (personal)
-phone: +91-7081311219 (personal)
+name: Sypowski victor
+title: Administrateur Système et Réseau
+email: victor.sypowski@gmail.com
+# phone:
 # website: Your website (eg. https://google.com)(optional)
 
 # Dark Mode (true/false/never)
@@ -15,17 +15,17 @@ darkmode: true
 # =======================================================================
 #                           Social links
 # =======================================================================
-twitter_username: humble_d98
-github_username:  AakashMallik
+#twitter_username: humble_d98
+github_username:  draed
 stackoverflow_username: "8895077"
 # dribbble_username: jekyll
-facebook_username: humble.discipulus
+# facebook_username: humble.discipulus
 # flickr_username: jekyll
-instagram_username: buddhist_nomad
-linkedin_username: aakash-mallik-5b8198132
+# instagram_username: buddhist_nomad
+linkedin_username: victor-sypowski-806a81114
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: channel/UCmR0ItZcuYlh81JHXVS1yWQ
+# youtube_username: channel/UCmR0ItZcuYlh81JHXVS1yWQ
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -52,13 +52,11 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile_1.jpg
 about_content: | # this will include new lines to allow paragraphs
-  **Aakash Mallik** aka **humble_D** is a software engineer at Samsung R&D. He is currently working on a patented idea implementation that uses Swarm Intelligence at its core.
-  He has worked with several startups during his college years thus enjoys the culture of fast paced engineering. He loves working in teams and gels with
-  new folks with ease; communication happens to be one of his strong suits. He spends a lot of time working on personal projects; trying out new technologies
-  in the process. He also has a passion for teaching and loves to mentor students who like a bit of challenge. 
+  Issu d'un DUT réseau télécommunication, j'ai acquis de solides bases en informatique et plus particulièrement en architecture réseau. Lors de mon stage de fin d'étude à la DSI de saint-pierre (Réunion), j'ai renforcé mes compétences en gestion de parc informatique, notamment à travers VMware et GLPI.
 
-  These days he uses his free time on Kaggle competitions trying to glue Neural Networks and Elegant development skills into beautiful robust Pytorch pipelines.
-  He also spends his weekends working as a consultant for international startups.
+  A la suite de ce BAC + 2, je me suis orienté vers une formation en Licence Professionnelle MRIT spécialité Administration et Sécurité des Réseaux. Durant cette année au poste de Chef de projet MOE Junior, j'ai assimilé les concepts de gestion de projet et développement d'application web (java EE).
+  
+  Testant mes connaissances à travers différents laboratoires (packet tracer, docker, virtualbox), j'ai pu administrer des architectures réseaux complètes intégrants services et sécurité.
 
 # =======================================================================
 #                          Projects Section
@@ -79,10 +77,8 @@ about_content: | # this will include new lines to allow paragraphs
 #                            More Section
 # =======================================================================
 # more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+#more_content: | # this will include new lines to allow paragraphs
+#  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
 # =======================================================================
 #                               Footer
