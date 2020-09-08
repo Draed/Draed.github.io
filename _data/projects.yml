@@ -1,0 +1,7 @@
+# Project template
+- layout: top-middle
+  name: Evènement JRES 2019
+  link: https://www.jres.org/fr/accueil/
+  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  description: | # this will include new lines to allow paragraphs
+    Mise en place infrastructure Wifi avec configuration haute densitée (plenière 1800 personnes).
