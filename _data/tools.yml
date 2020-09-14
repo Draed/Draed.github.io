@@ -7,3 +7,24 @@
     -  Gestion infrastructure Wifi : mise en place IAC, monitoring (TIG), log (ELK), migration vers version AOS8
     Intégration équipement IOT, automatisation processus.
     - Gestion contrôle d'accès : Serveur SMI Fichet-Bauche.
+
+- utilitaire Wifi : Wifi explorer, PiFinger, PiUser, iwconfi, airmon, aircrack, wifite.
+- Note : Joplin
+- DNS : unbound, bind
+- Gestion de projet : openProject, projetLibre, Kanboard, Gantproject
+- Gestion des mots de passe : keepass
+- transfert de fichier : nextcloud, ftp, tftp, scp
+- inventaire : GLPI
+- DCIM/IPAM : IPAM (efficient IP), netbox
+- Log : syslog, ELK
+- Monitoring : TIG (InfluxDB, Telegraf, Grafana), prometheus, what's up
+- chat : Slack, Rocketchat
+- Wiki : xwik, chatbot (rocketchat)
+- Authentification et NAC : LDAP, active directory, Radius (freeradius3), PacketFence, clearpass.
+- Edition image : Photoscape, Gimp
+- Plan et schéma : Visio, Yed
+- Firewall client : iptable, ufw 
+- firwall/proxy server : squid 
+- Editeur de text : nano, visual studio
+- Virtualisation : docker, VmWare, virtualbox, packet tracer, gns3.
+- Client base de donnée : DBeaver, mysql workbench 

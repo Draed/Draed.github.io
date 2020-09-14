@@ -1,16 +1,18 @@
 # skills template
 - layout: left
+  company: Administration Réseau
   skill_title: Administration Réseau
   description: | # this will include new lines to allow paragraphs
     -  Wifi : 
-      - Arubas OS 6.x - 8.x, clearpass, airwave, 
-      - 802.11k,r,v, 
-      - 802.11i (WPA2-Entreprise et WPA2-Personnal)
-      - Design Haute densité
+        - Arubas OS 6.x - 8.x, clearpass, airwave, 
+        - 802.11k,r,v, 
+        - 802.11i (WPA2-Entreprise et WPA2-Personnal)
+        - Design Haute densité
     - Switching : STP, ARP, DHCP
     - Routage : MPLS, VXLAN
 
 - layout: left
+  company: Administration Système
   skill_title: Administration Système
   description: | # this will include new lines to allow paragraphs
     - Windows server : 2008 - 2012
@@ -19,3 +21,12 @@
     - Automatisation : Terraform, Ansible, netmiko, git, jenkins, API REST
     - Freeradius 3 : 802.1x, MAC-radius
     - Python : 2-3
+  
+- layout: left
+  company: Développement web
+  skill_title: Développement web
+  description: | # this will include new lines to allow paragraphs
+    - Backend : Symfony : 2 - 4, Django, Flask, API REST
+    - Frontend : React.js
+    - CSS : Bootstrap, Bulma.io
+    - Electron : Electron + React.js + Python
