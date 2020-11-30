@@ -15,36 +15,9 @@ darkmode: true
 # =======================================================================
 #                           Social links
 # =======================================================================
-#twitter_username: humble_d98
+
 github_username:  draed
-stackoverflow_username: "8895077"
-# dribbble_username: jekyll
-# facebook_username: humble.discipulus
-# flickr_username: jekyll
-# instagram_username: buddhist_nomad
 linkedin_username: victor-sypowski-806a81114
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: channel/UCmR0ItZcuYlh81JHXVS1yWQ
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# =======================================================================
-#                      Additional icon links
-# =======================================================================
-additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # =======================================================================
 #                            About Section
