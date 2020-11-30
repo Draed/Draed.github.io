@@ -44,7 +44,7 @@
       - docker image 
       - docker and the pid 1 zombie reaping problem (https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/) 
     - log : 
-	    - ELK (Elastic search, Logstash, Kibana) 
+      - ELK (Elastic search, Logstash, Kibana) 
   
 - layout: left
   company: Développement web
