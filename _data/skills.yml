@@ -4,23 +4,47 @@
   skill_title: Administration Réseau
   description: | # this will include new lines to allow paragraphs
     -  Wifi : 
-        - Arubas OS 6.x - 8.x, clearpass, airwave, 
-        - 802.11k,r,v, 
-        - 802.11i (WPA2-Entreprise et WPA2-Personnal)
-        - Design Haute densité
+      - Arubas OS 6.x - 8.x, clearpass, airwave, 
+      - 802.11k,r,v, 
+      - 802.11i (WPA2-Entreprise et WPA2-Personnal)
+      - Design Haute densité
     - Switching : STP, ARP, DHCP
-    - Routage : MPLS, VXLAN
 
 - layout: left
   company: Administration Système
   skill_title: Administration Système
   description: | # this will include new lines to allow paragraphs
-    - Windows server : 2008 - 2012
+    - Windows  : 
+      - server 2008 - 2012
+      - client windows 10
+      - WAPT2
     - Ubuntu/Debian : Squeeze - Buster
     - Mac OS : Yosemite - Mojave
-    - Automatisation : Terraform, Ansible, netmiko, git, jenkins, API REST
-    - Freeradius 3 : 802.1x, MAC-radius
-    - Python : 2-3
+    - Automatisation : 
+      - Terraform
+      - Vagrant
+      - Packer
+      - Ansible
+      - Netmiko
+      - Jenkins
+      - Travis
+      - BAT 
+      - API REST
+    - Supervision : 
+      - TIG : Telegraf, influx-db, Grafana 
+    - Authentification : 
+      - opendap  
+      - Freeradius 3 (802.1x, MAC-radius)
+    - Python : 
+      - python 2-3
+      - django
+      - flask
+    - Docker : 
+      - docker composer
+      - docker image 
+      - docker and the pid 1 zombie reaping problem (https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/) 
+    - log : 
+	    - ELK (Elastic search, Logstash, Kibana) 
   
 - layout: left
   company: Développement web

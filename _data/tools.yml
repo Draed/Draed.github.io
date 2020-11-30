@@ -12,12 +12,12 @@
     - Log : syslog, ELK
     - Monitoring : TIG (InfluxDB, Telegraf, Grafana), prometheus, what's up
     - chat : Slack, Rocketchat
-    - Wiki : xwik, chatbot (rocketchat)
-    - Authentification et NAC : LDAP, active directory, Radius (freeradius3), PacketFence, clearpass.
+    - Wiki : xwiki, chatbot (rocketchat)
+    - Authentification et NAC : openLDAP, active directory, Radius (freeradius3), PacketFence, clearpass.
     - Edition image : Photoscape, Gimp
     - Plan et schéma : Visio, Yed
     - Firewall client : iptable, ufw 
     - firwall/proxy server : squid 
-    - Editeur de text : nano, visual studio
+    - Editeur de text : nano, visual studio (codium)
     - Virtualisation : docker, VmWare, virtualbox, packet tracer, gns3.
     - Client base de donnée : DBeaver, mysql workbench 

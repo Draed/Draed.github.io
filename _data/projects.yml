@@ -5,3 +5,15 @@
   github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   description: | # this will include new lines to allow paragraphs
     Mise en place infrastructure Wifi avec configuration haute densitée (plenière 1800 personnes).
+
+- layout: top-middle
+  name: Rénovation Bâtiment Droit-lettre et Gabriel
+  description: | # this will include new lines to allow paragraphs
+    Installation de 200 bornes wifi
+
+- layout: top-middle
+  name: lab 1
+  link: https://github.com/Draed/lab1-TEST_INFRA
+  github: Draed/lab1-TEST_INFRA
+  description: | # this will include new lines to allow paragraphs
+    lab de création d'infra de test
