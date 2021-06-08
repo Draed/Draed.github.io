@@ -32,6 +32,12 @@ about_content: | # this will include new lines to allow paragraphs
   Testant mes connaissances à travers différents laboratoires (packet tracer, docker, virtualbox), j'ai pu administrer des architectures réseaux complètes intégrants services et sécurité.
 
 # =======================================================================
+#                            Pref Section
+# =======================================================================
+pref_content: |
+    Intérêt dans la programmation avec python 
+     
+# =======================================================================
 #                          Projects Section
 # =======================================================================
 # projects_title: Projects #(Use this to override about projects section title)

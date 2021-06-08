@@ -28,6 +28,10 @@
         {%- include skills.html -%}
       {%- endif -%}
 
+      {%- if site.pref -%}
+        {%- include pref.html -%}
+      {%- endif -%}
+
       {%- if site.data.tools.size > 0 -%}
         {%- include tools.html -%}
       {%- endif -%}
