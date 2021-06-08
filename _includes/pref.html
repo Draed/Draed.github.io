@@ -2,7 +2,7 @@
     <h3>{{ site.pref_title | default: "Intérêt et préférences" }}</h3>
     <div class="row clearfix">
       <div class="{{ 'col-xs-12 ' }}">
-        {{ site.pref_content }}
+        {{ site.pref_content | strip | markdownify }}
       </div>
     </div>
   </div>
