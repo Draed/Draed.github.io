@@ -1,0 +1,23 @@
+- layout: left
+  company: Outils utilisés
+  description: |
+    - utilitaire Wifi : Wifi explorer, PiFinger, PiUser, iwconfi, airmon, aircrack, wifite.
+    - Note : Joplin
+    - DNS : unbound, bind
+    - Gestion de projet : openProject, projetLibre, Kanboard, Gantproject
+    - Gestion des mots de passe : keepass
+    - transfert de fichier : nextcloud, ftp, tftp, scp
+    - inventaire : GLPI
+    - DCIM/IPAM : IPAM (efficient IP), netbox
+    - Log : syslog, ELK
+    - Monitoring : TIG (InfluxDB, Telegraf, Grafana), prometheus, what's up
+    - chat : Slack, Rocketchat
+    - Wiki : xwiki, chatbot (rocketchat)
+    - Authentification et NAC : openLDAP, active directory, Radius (freeradius3), PacketFence, clearpass.
+    - Edition image : Photoscape, Gimp
+    - Plan et schéma : Visio, Yed
+    - Firewall client : iptable, ufw 
+    - firwall/proxy server : squid 
+    - Editeur de text : nano, visual studio (codium)
+    - Virtualisation : docker, VmWare, virtualbox, packet tracer, gns3.
+    - Client base de donnée : DBeaver, mysql workbench 

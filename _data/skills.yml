@@ -1,0 +1,119 @@
+# skills template
+- layout: left
+  company: Administration Réseau
+  skill_title: Administration Réseau
+  description: | # this will include new lines to allow paragraphs
+    - Wifi : 
+      - ▰▰▰▰▰▰▰▰▰▱ Aruba OS 6.x - 8.x
+      - ▰▰▰▰▱▱▱▱▱▱ Airwave
+      - ▰▰▰▰▰▰▱▱▱▱ 802.11k,r,v 
+      - ▰▰▰▰▰▰▱▱▱▱ 802.11i (WPA2-Entreprise et WPA2-Personnal)
+      - ▰▰▰▰▰▱▱▱▱▱ Design Haute densité
+    - Switching (couche 2) : 
+      - ▰▰▰▰▰▰▰▰▱▱ Spanning tree (STP, RSTP, PVST, MSTP, SPB)
+      - ▰▰▰▰▰▰▰▰▱▱ ARP
+      - ▰▰▰▰▰▰▰▰▱▱ DHCP 
+      - ▰▰▰▰▰▰▰▰▱▱ VLAN (dot1q)
+      - ▰▰▰▰▰▰▰▰▱▱ CDP/LLDP
+      - ▰▰▰▰▰▰▰▰▱▱ VRRP/HSRP
+    - Routage (couche 3) : 
+      - ▰▰▰▰▰▰▱▱▱▱ IPv4
+      - ▰▰▰▰▱▱▱▱▱▱ IPv6
+      - ▰▰▰▱▱▱▱▱▱▱ RIP
+      - ▰▰▰▱▱▱▱▱▱▱ OSPF
+      - ▰▰▰▱▱▱▱▱▱▱ MPLS
+
+- layout: left
+  company: Administration Système
+  skill_title: Administration Système
+  description: | # this will include new lines to allow paragraphs
+    - Windows  : 
+      - ▰▰▰▰▱▱▱▱▱▱ server (2008 - 2012)
+      - ▰▰▰▰▰▰▱▱▱▱ client windows 10
+    - Linux : 
+      - ▰▰▰▰▰▰▰▱▱▱ Debian : Squeeze - Buster
+      - ▰▰▰▰▰▰▰▱▱▱ Ubuntu
+      - ▰▰▰▰▱▱▱▱▱▱ Centos
+    - Mac OS : 
+      - ▰▰▰▰▰▰▰▰▱▱ Yosemite - Monterey
+    - Automatisation (CI/CD) : 
+      - ▰▰▰▰▰▰▱▱▱▱ Terraform
+      - ▰▰▰▰▰▰▱▱▱▱ Vagrant
+      - ▰▰▰▰▱▱▱▱▱▱ Packer
+      - ▰▰▰▰▰▰▰▰▰▱ Ansible
+      - ▰▰▰▰▰▰▰▰▱▱ Netmiko
+      - ▰▰▰▰▰▱▱▱▱▱ Jenkins
+      - ▰▰▰▰▱▱▱▱▱▱ Molecule
+    - Supervision : 
+      - ▰▰▰▰▰▰▱▱▱▱ TIG : Telegraf, influx-db, Grafana 
+      - ▰▰▰▱▱▱▱▱▱▱ Nagios 
+      - ▰▰▰▰▱▱▱▱▱▱ prometheus
+      - ▰▰▰▱▱▱▱▱▱▱ what’s up
+    - Virtualisation : 
+      - ▰▰▰▰▰▰▱▱▱▱ docker 
+      - ▰▰▰▰▰▰▱▱▱▱ podman  
+      - ▰▰▰▰▱▱▱▱▱▱ Vmware
+      - ▰▰▰▰▰▰▱▱▱▱ virtualbox
+      - ▰▰▰▰▱▱▱▱▱▱ proxmox
+    - sécurité : 
+      - ▰▰▰▰▰▰▱▱▱▱ IDS/IPS (Snort, maltrail)
+      - ▰▰▰▰▰▰▱▱▱▱ scan vulérabilité (lynis, nettacker)
+      - ▰▰▰▰▰▰▱▱▱▱ server hardening (fail2ban, ssh config, ...)
+    - log : 
+      - ▰▰▰▰▱▱▱▱▱▱ syslog-ng
+      - ▰▰▰▰▱▱▱▱▱▱ rsyslog
+      - ▰▰▰▰▰▰▱▱▱▱ ELK (Elastic search, Logstash, Kibana)
+      - ▰▰▰▰▰▰▱▱▱▱ logrotate 
+    - scripting : 
+      - ▰▰▰▰▱▱▱▱▱▱ powershell
+      - ▰▰▰▰▰▰▰▱▱▱ shell
+    - Python : 
+      - ▰▰▰▰▰▰▱▱▱▱ python 2-3
+      - ▰▰▰▰▰▰▱▱▱▱ flask (API)
+      - ▰▰▰▰▰▰▱▱▱▱ scrapping (BeautifulSoup, requests, selenium)
+    - Authentification : 
+      - ▰▰▰▰▱▱▱▱▱▱ opendldap  
+      - ▰▰▰▰▰▰▱▱▱▱ Freeradius 3 (802.1x, MAC-radius)
+      - ▰▰▰▰▱▱▱▱▱▱ active directory
+    - Autres Services :
+      - ▰▰▰▰▰▰▱▱▱▱ DNS (unbound, bind, pihole) 
+      - ▰▰▰▰▰▰▰▰▱▱ File sharing (SFTP, samba, scp, rsync, tftp) 
+      - ▰▰▰▰▰▱▱▱▱▱ serveur Web (apache, nginx) 
+      - ▰▰▰▰▰▰▰▱▱▱ sauvegarde (restic, borgbackup) 
+      - ▰▰▰▰▰▰▰▱▱▱ git (gitea, gitlab) 
+      - ▰▰▰▰▰▰▱▱▱▱ SQL (mysql, postgrsql, sqlite, redis) 
+  
+- layout: left
+  company: Développement web
+  skill_title: Développement web
+  description: | 
+    - Backend : 
+      - ▰▰▰▰▰▰▰▱▱▱ Symfony : 2 - 4
+      - ▰▰▰▰▰▰▰▱▱▱ Django
+      - ▰▰▰▰▰▰▰▱▱▱ Flask
+    - Frontend : 
+      - ▰▰▰▱▱▱▱▱▱▱ React.js
+    - CSS : 
+      - ▰▰▰▰▰▰▰▱▱▱ Bootstrap
+      - ▰▰▰▱▱▱▱▱▱▱ Bulma.io
+
+- layout: left
+  company: Gestion de projet
+  skill_title: Gestion de projet
+  description: | 
+    - méthodes classiques : 
+      - ▰▰▰▰▰▰▰▰▱▱ cascade
+      - ▰▰▰▰▰▰▱▱▱▱ cycle en V
+    - méthodes agiles : 
+      - ▰▰▰▰▰▰▱▱▱▱ scrum
+      - ▰▰▰▰▰▰▰▰▱▱ kanban
+      - ▰▰▰▰▰▱▱▱▱▱ eXtreme
+    - concept gestion de projet : 
+      - ▰▰▰▰▰▰▰▰▱▱ PDCA (Roue de Lemming)
+      - ▰▰▰▰▰▰▰▱▱▱ diagramme de Gant
+      - ▰▰▰▰▰▰▰▱▱▱ diagramme de PERT
+    - outils : 
+      - ▰▰▰▰▰▰▰▱▱▱ redmine
+      - ▰▰▰▰▰▰▰▱▱▱ openproject
+      - ▰▰▰▰▰▰▰▱▱▱ kanboard
+      - ▰▰▰▰▰▰▱▱▱▱ projetLibre

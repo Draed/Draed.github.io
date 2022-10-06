@@ -1,0 +1,48 @@
+<div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details">
+    {%- if include.item.name -%}<h4>{{ include.item.name }}</h4>{%- endif -%}
+    <div class="row" style="margin-top: 2%; margin-bottom: 5px">
+      {%- if include.item.start -%}
+        <div class="col-xs-3 col-print-3 details" style="margin-bottom:1px; margin-top:5px"><p>Débuté le : {{ include.item.start }}</p></div>
+      {%- endif -%}
+      {%- if include.item.end -%}
+        <div class="col-xs-3 col-print-3 details" style="margin-bottom:1px; margin-top:5px"><p>Terminé le : {{ include.item.end }}</p></div>
+      {%- endif -%}
+      {%- if include.item.time -%}
+        <div  class="col-xs-3 col-print-3 details" style="margin-bottom:1px; margin-top:5px"><p>Durée totale : {{ include.item.time }}</p></div>
+      {%- endif -%}
+      {%- if include.item.tag -%}
+        <div class="col-xs-3 col-print-3 details" style="margin-bottom:1px; margin-top:5px"><p>Tag : {{ include.item.tag }}</p></div>
+      {%- endif -%}
+    </div>
+    {%- if include.item.image -%}
+      <!-- <div class="col-xs-12 col-sm-4 col-md-3 no-print"> -->
+        <span class="project-img" style="background-image: url({{ include.item.image | relative_url }})"></span>
+      <!-- </div> -->
+    {%- endif -%}
+    {%- if include.item.company -%}<h4>{{ include.item.company }}</h4>{%- endif -%}
+    {%- if include.item.link -%}
+      {% include a.html href=include.item.link class="link" %}{{ include.item.link }}</a>
+    {%- endif -%}
+    {%- if include.item.job_title -%}<p><b>{{ include.item.job_title }}</b></p>{%- endif -%}
+    {%- if include.item.qualification -%}<p><b>{{ include.item.qualification }}</b></p>{%- endif -%}
+    {%- if include.item.dates -%}<p>{{ include.item.dates }}</p>{%- endif -%}
+    {% for job in include.item.jobs %}
+      <p><b>{{ job.title }}</b></p>
+      <p>{{ job.dates }}</p>
+    {% endfor %}
+    {%- if include.item.github -%}
+      <p class="no-print">
+        <a href="https://github.com/{{ include.item.github }}" target="_blank">
+          <i class="fa fa-github" title="{{ include.item.name }} Github link"></i>
+        </a>
+      </p>
+    {%- endif -%}
+  </div>
+  <div class="col-xs-10 col-print-10 col-xs-offset-1">
+    {%- if include.item.quote -%}
+      <p class="quote mt-5">{{ include.item.quote }}</p>
+    {%- endif -%}
+    {{ include.item.description | strip | markdownify }}
+  </div>
+</div>

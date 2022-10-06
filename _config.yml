@@ -1,0 +1,85 @@
+# Site
+repository: https://github.com/Draed/Draed.github.io
+favicon: images/favicon.ico
+
+# Personal info
+name: Sypowski victor
+title: Administrateur Système et Réseau
+email: victor.sypowski@gmail.com
+# phone:
+# website: Your website (eg. https://google.com)(optional)
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# =======================================================================
+#                           Social links
+# =======================================================================
+
+github_username:  draed
+linkedin_username: victor-sypowski-806a81114
+
+# =======================================================================
+#                            About Section
+# =======================================================================
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile_1.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Issu d'un DUT réseau télécommunication, j'ai acquis de solides bases en informatique et plus particulièrement en architecture réseau. Lors de mon stage de fin d'étude à la DSI de saint-pierre (Réunion), j'ai renforcé mes compétences en gestion de parc informatique, notamment à travers VMware et GLPI.
+
+  A la suite de ce BAC + 2, je me suis orienté vers une formation en Licence Professionnelle MRIT spécialité Administration et Sécurité des Réseaux. Durant cette année au poste de Chef de projet MOE Junior, j'ai assimilé les concepts de gestion de projet et développement d'application web (java EE).
+  
+  Testant mes connaissances à travers différents laboratoires (packet tracer, docker, virtualbox), j'ai pu administrer des architectures réseaux complètes intégrants services et sécurité.
+     
+# =======================================================================
+#                          Projects Section
+# =======================================================================
+# projects_title: Projects #(Use this to override about projects section title)
+
+# =======================================================================
+#                          Experience Section
+# =======================================================================
+# experience_title: Experience #(Use this to override about experience section title)
+
+# =======================================================================
+#                          Education Section
+# =======================================================================
+# education_title: Education #(Use this to override about education section title)
+
+# =======================================================================
+#                            More Section
+# =======================================================================
+# more_title: A Little More About Me #(Use this to override about more section title)
+#more_content: | # this will include new lines to allow paragraphs
+#  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+# =======================================================================
+#                               Footer
+# =======================================================================
+footer_show_references: true
+
+# =======================================================================
+#                           Build settings
+# =======================================================================
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

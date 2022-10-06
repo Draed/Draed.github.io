@@ -1,0 +1,79 @@
+# Project template
+- layout: top-middle
+  name: Roadmap planner
+  start: 11/08/2022
+  end: 27/08/2022
+  time: 2 semaine
+  tag: python
+  # link: 
+  image: images/python-development.png
+  description: | # this will include new lines to allow paragraphs
+    Application développée en python, permettant d'organiser les activités 
+    dans une semaine en fonction de plusieurs paramètres (météo, temps de sommeil, temps de travail, activités sportives et repos).
+    Librairies utilisées : caldav, regex, requests, json, datetime, pytz, threading.
+
+- layout: top-middle
+  name: Work planner
+  start: 11/08/2022
+  end: 27/08/2022
+  time: 2 semaine
+  tag: python
+  # link: 
+  image: images/python-developer.png
+  description: | # this will include new lines to allow paragraphs
+    Application développée en python, complémentaire à roadmap planner, permettant d'organiser
+    des projets d'apprentissage ou d'application (POC) sur une durée (une semaine, un mois, etc ..).
+    Librairies utilisées : caldav, regex, requests, json, datetime, pytz, threading.
+
+- layout: top-middle
+  name: Rush app
+  start: 11/08/2022
+  end: 27/08/2022
+  time: 2 semaine
+  tag: python
+  # link: 
+  image: images/blog_python.png
+  description: | 
+    Application développée en python, qui me permet de gérer mes "rush" (challenges) : 
+    séances entre 3 et 24 heures dans lesquelles, je dois atteindre des objectifs.
+    Exemple : monter un infrastructure d'authentification (LDAP/RADIUS) en moins de 24 heures. 
+
+
+- layout: top-middle
+  name: project 1
+  time: 2 jours
+  link: https://www.jres.org/fr/accueil/
+  image: images/ansible.png
+  description: | # this will include new lines to allow paragraphs
+    Description du projet 
+
+# - name: project X
+#   link: https://github.com/Draed/lab1-TEST_INFRA
+#   description: | # this will include new lines to allow paragraphs
+#     Description du projet
+
+# - name: project X
+#   link: https://github.com/Draed/lab1-TEST_INFRA
+#   description: | # this will include new lines to allow paragraphs
+#     Description du projet
+
+# - name: project X
+#   link: https://github.com/Draed/lab1-TEST_INFRA
+#   description: | # this will include new lines to allow paragraphs
+#     Description du projet
+
+# - name: project X
+#   link: https://github.com/Draed/lab1-TEST_INFRA
+#   description: | # this will include new lines to allow paragraphs
+#     Description du projet
+
+#   - name: project X
+#   link: https://github.com/Draed/lab1-TEST_INFRA
+#   description: | # this will include new lines to allow paragraphs
+#     Description du projet
+
+# - name: lab 1
+#   link: https://github.com/Draed/lab1-TEST_INFRA
+#   github: Draed/lab1-TEST_INFRA
+#   description: | # this will include new lines to allow paragraphs
+#     lab de création d'infra de test
