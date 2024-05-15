@@ -4,7 +4,6 @@ My resume repository.
 
 links : https://draed.github.io/
 
-
 ## Usage
 
 - to test locally with the simpliest web server running on python :
