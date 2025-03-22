@@ -34,9 +34,17 @@
                         <li>▰▰▰▰▰▰▰▱▱▱ Mysql</li>
                         <li>▰▰▰▰▰▰▱▱▱▱ Mariadb</li>
                         <li>▰▰▰▰▰▰▱▱▱▱ Mongodb</li>
-                        <li>▰▰▰▰▱▱▱▱▱▱ neo4j</li>
-                        <li>▰▰▰▰▱▱▱▱▱▱ virtuoso</li>
+                        <li>▰▰▰▰▰▰▱▱▱▱ InfluxDB</li>
+                        <li>▰▰▰▰▰▰▱▱▱▱ OpenTSDB</li>
                         <li>▰▰▰▰▱▱▱▱▱▱ liquibase</li>
+                        <li>▰▰▰▱▱▱▱▱▱▱ neo4j</li>
+                        <li>▰▰▰▱▱▱▱▱▱▱ virtuoso</li>
+                    </ul>
+                    <li>Proxy :</li>
+                    <ul>
+                        <li>▰▰▰▰▰▰▰▱▱▱ traefik</li>
+                        <li>▰▰▰▰▰▰▱▱▱▱ nginx</li>
+                        <li>▰▰▰▰▱▱▱▱▱▱ squid</li>
                     </ul>
                     <li>Documentation :</li>
                     <ul>
@@ -59,11 +67,13 @@
                     </ul>
                     <li>Backup :</li>
                     <ul>
-                        <li>▰▰▰▰▰▰▰▰▱▱ PRA/PCA</li>
+                        <li>▰▰▰▰▰▰▰▰▱▱ BCP/BRP (PRA/PCA)</li>
+                        <li>▰▰▰▰▰▰▰▰▱▱ srv-postgresl_backup</li>
                         <li>▰▰▰▰▰▰▰▰▱▱ restic</li>
-                        <li>▰▰▰▰▰▰▰▱▱▱ borgbackup</li>
-                        <li>▰▰▰▰▰▰▰▱▱▱ Restic-compose backup</li>
-                        <li>▰▰▰▰▰▰▰▱▱▱ Docker-volume backup</li>
+                        <li>▰▰▰▰▰▰▰▱▱▱ Bivac</li>
+                        <li>▰▰▰▰▰▰▱▱▱▱ Restic-compose backup</li>
+                        <li>▰▰▰▰▰▰▱▱▱▱ Docker-volume backup</li>
+                        <li>▰▰▰▰▰▱▱▱▱▱ borgbackup</li>
                     </ul>
                     <li>DNS :</li>
                     <ul>
@@ -89,8 +99,19 @@
                     <li>VPN :</li>
                     <ul>
                         <li>▰▰▰▰▰▰▰▱▱▱ Pritunl</li>
+                        <li>▰▰▰▰▰▰▰▱▱▱ OpenVpn</li>
                         <li>▰▰▰▰▰▰▱▱▱▱ Wireguard</li>
+                        <li>▰▰▰▰▰▰▱▱▱▱ OpenVpn Access Server</li>
                         <li>▰▰▰▰▰▱▱▱▱▱ Pfsense IPSEC</li>
+                    </ul>
+                    <li>Other services :</li>
+                    <ul>
+                        <li>▰▰▰▰▰▰▰▱▱▱ MQTT (mosquitto)</li>
+                        <li>▰▰▰▰▰▰▰▱▱▱ openproject </li>
+                        <li>▰▰▰▰▰▰▱▱▱▱ ftp, sftp, vsftp</li>
+                        <li>▰▰▰▰▰▱▱▱▱▱ EJBCA (PKI)</li>
+                        <li>▰▰▰▰▰▱▱▱▱▱ OpenXPKI</li>
+                        <li>▰▰▰▰▰▱▱▱▱▱ Minio (S3)</li>
                     </ul>
 
                 </ul>
@@ -104,6 +125,18 @@
                         <li>▰▰▰▰▰▰▰▰▱▱ github</li>
                         <li>▰▰▰▰▰▰▰▱▱▱ gitlab</li>
                         <li>▰▰▰▰▰▰▱▱▱▱ gitea</li>
+                    </ul>
+                    <li>Container Registry :</li>
+                    <ul>
+                        <li>▰▰▰▰▰▰▰▰▱▱ docker hub </li>
+                        <li>▰▰▰▰▰▰▰▰▱▱ Quay.io </li>
+                        <li>▰▰▰▰▰▰▰▱▱▱ registry (self hosted docker)</li>
+                    </ul>
+                    <li>Artifact repository:</li>
+                    <ul>
+                        <li>▰▰▰▰▰▰▱▱▱▱ Artifactory (Jfrog) </li>
+                        <li>▰▰▰▰▱▱▱▱▱▱ Harbor </li>
+                        <li>▰▰▰▱▱▱▱▱▱▱ Nexus</li>
                     </ul>
                     <li>Cloud Provider :</li>
                     <ul>
@@ -131,7 +164,7 @@
                     <li>Orchestration :</li>
                     <ul>
                         <li>▰▰▰▰▰▰▰▰▱▱ Docker-compose</li>
-                        <li>▰▰▰▰▰▰▰▰▱▱ Kubernetes</li>
+                        <li>▰▰▰▰▰▰▱▱▱▱ Kubernetes</li>
                         <li>▰▰▰▰▰▱▱▱▱▱ Docker-swarm</li>
                     </ul>
                     <li>Infrastructure As Code :</li>
@@ -146,6 +179,7 @@
                         <li>▰▰▰▰▰▰▰▰▱▱ github Action (selfhosted GH runner, CI test, CD ansible)</li>
                         <li>▰▰▰▰▰▰▰▱▱▱ gitlab runner</li>
                         <li>▰▰▰▰▰▰▰▱▱▱ Hadolint</li>
+                        <li>▰▰▰▰▰▰▰▱▱▱ Watchtower</li>
                         <li>▰▰▰▰▰▰▰▱▱▱ Build and push docker image</li>
                         <li>▰▰▰▰▰▰▰▱▱▱ Incremental semver with git tag</li>
                         <li>▰▰▰▰▰▰▰▱▱▱ Shellcheck</li>
@@ -159,7 +193,6 @@
                     <ul>
                         <li>▰▰▰▰▰▰▰▰▱▱ Ansible</li>
                     </ul>
-
                 </ul>
             </div>
 
@@ -170,7 +203,7 @@
                     <ul>
                         <li>▰▰▰▰▰▰▰▰▱▱ API (Flask, FastAPI)</li>
                         <li>▰▰▰▰▰▰▱▱▱▱ GUI (tkinter, pyqt)</li>
-                        <li>▰▰▰▰▰▰▱▱▱▱ CLI (prompt_toolkit, inquirer, blessed)</li>
+                        <li>▰▰▰▰▰▰▱▱▱▱ CLI (prompt_toolkit, inquirer, blessed, asciimatics)</li>
                         <li>▰▰▰▰▰▰▱▱▱▱ ssh libs (Paramiko, netmiko)</li>
                         <li>▰▰▰▰▰▰▱▱▱▱ network libs (scapy)</li>
                         <li>▰▰▰▰▰▱▱▱▱▱ scrapping (BeautifulSoup, requests, selenium)</li>
@@ -244,6 +277,7 @@
                         <li>▰▰▰▰▰▰▰▰▱▱ VLAN (dot1q)</li>
                         <li>▰▰▰▰▰▰▰▰▱▱ Spanning tree (STP, RSTP, PVST)</li>
                         <li>▰▰▰▰▰▰▰▱▱▱ Cisco</li>
+                        <li>▰▰▰▰▰▰▰▱▱▱ Pfsense</li>
                         <li>▰▰▰▰▰▰▱▱▱▱ Aruba OS</li>
                         <li>▰▰▰▰▰▰▱▱▱▱ Fortigate</li>
                         <li>▰▰▰▰▰▰▱▱▱▱ CDP/LLDP</li>
